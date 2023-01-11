@@ -11,7 +11,7 @@ import { RunOpdracht8 } from "./Opdracht_8.js"
 import { RunOpdracht9 } from "./Opdracht_9.js"
 import { RunOpdracht10 } from "./Opdracht_10.js"
 
-const opdrachten: Record<string, () => void> = { //Object die per record een string en een void terug geeft
+const opdrachten: Record<string, () => void> = { //Object die een string verwacht en een void terug geeft NADAT RunOpdracht1-10 aangeroepen is
     "opdracht1": RunOpdracht1,
     "opdracht2": RunOpdracht2,
     "opdracht3": RunOpdracht3,
