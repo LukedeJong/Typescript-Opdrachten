@@ -1,0 +1,21 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "Opdrachten voor toekomst",
+    "type": "module",
+    "main": "dist/",
+    "dependencies": {
+        "typescript": "^4.9.4"
+    },
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/index.js",
+        "dev": "node dist/index.js",
+        "watch": "npx tsc --watch"
+    },
+    "author": "Luke de Jong",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.11.18"
+    }
+}
